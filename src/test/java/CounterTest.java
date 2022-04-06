@@ -16,7 +16,7 @@ public class CounterTest {
     public void testReset() {
         Counter ctr = new Counter();
         ctr.reset();
-        assertEquals(0, ctr.getValue());
+        assertEquals(1, ctr.getValue());
     }
 
 }
